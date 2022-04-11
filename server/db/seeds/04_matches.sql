@@ -1,0 +1,4 @@
+INSERT INTO matches (tournament_id, team_a_id, team_b_id, team_a_name, team_b_name, location, date, time) VALUES (6, 1, 8, 'All Stars', 'We not from 63rd', 'Toronto, Lamport Stadium', '2022-06-14', '1:00pm');
+INSERT INTO matches (tournament_id, team_a_id, team_b_id, team_a_name, team_b_name, location, date, time) VALUES (6, 2, 7, 'Mandem', 'Quelly Woo', 'Toronto, Lamport Stadium', '2022-06-14', '2:00pm');
+INSERT INTO matches (tournament_id, team_a_id, team_b_id, team_a_name, team_b_name, location, date, time) VALUES (6, 3, 6, 'Cronem', 'Finally Rich', 'Toronto, Lamport Stadium', '2022-06-14', '4:00pm');
+INSERT INTO matches (tournament_id, team_a_id, team_b_id, team_a_name, team_b_name, location, date, time) VALUES (6, 4, 5, 'Tingz', 'We are simply better', 'Toronto, Lamport Stadium', '2022-06-14', '4:00pm');

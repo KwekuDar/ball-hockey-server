@@ -1,0 +1,10 @@
+-- schema/03_create_teams.sql
+DROP TABLE IF EXISTS teams CASCADE;
+-- CREATE Teams
+CREATE TABLE teams (
+  id SERIAL PRIMARY KEY NOT NULL,
+  tournament_id INTEGER REFERENCES tournaments(id) ON DELETE CASCADE NOT NULL,
+  captain INTEGER REFERENCES users(id) ON DELETE CASCADE NOT NULL,
+  name VARCHAR(255) NOT NULL,
+  location VARCHAR(255) NOT NULL
+);

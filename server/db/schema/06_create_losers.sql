@@ -1,0 +1,12 @@
+-- schema/06_create_losers.sql
+DROP TABLE IF EXISTS losers CASCADE;
+-- CREATE losers
+CREATE TABLE losers (
+  id SERIAL PRIMARY KEY NOT NULL,
+  match_id INTEGER REFERENCES matches(id) ON DELETE CASCADE NOT NULL,
+  first_period INTEGER NOT NULL DEFAULT 0,
+  second_period INTEGER NOT NULL DEFAULT 0,
+  third_period INTEGER NOT NULL DEFAULT 0,
+  team_id INTEGER REFERENCES teams(id) NOT NULL,
+  ot INTEGER NOT NULL DEFAULT 0
+);

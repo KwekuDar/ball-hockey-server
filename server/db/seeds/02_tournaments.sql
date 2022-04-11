@@ -1,0 +1,11 @@
+INSERT INTO tournaments (organizer_id, name, type, tournament_size, team_format, gender, start_date, end_date, description, link, location) VALUES (1, 'Champions League', 'single-elimination', 8, '2v2', 'Mens', '2022-06-14', '2022-07-14', 'Soccer tournament for the real demons', NULL, 'Toronto');
+INSERT INTO tournaments (organizer_id, name, type, tournament_size, team_format, gender, start_date, end_date, description, link, location) VALUES (1, 'Derby Run', 'single-elimination', 4, '3v3', 'Mens', '2022-06-15', '2022-07-15', 'random derby run', NULL, 'Oshawa' );
+INSERT INTO tournaments (organizer_id, name, type, tournament_size, team_format, gender, start_date, end_date, description, link, location) VALUES (2, 'Random Tourney', 'double-elimination', 4, '4v4', 'Mens', '2022-06-16', '2022-07-16', 'random tourney i guess', NULL, 'Mississauga' );
+INSERT INTO tournaments (organizer_id, name, type, tournament_size, team_format, gender, start_date, end_date, description, link, location) VALUES (3, 'Im Simply Better', 'double-elimination', 8, '5v5', 'Mens', '2022-06-17', '2022-07-17', 'im just better', NULL, 'Barrie' );
+INSERT INTO tournaments (organizer_id, name, type, tournament_size, team_format, gender, start_date, end_date, description, link, location) VALUES (4, 'Nize It Tourney', 'single-elimination', 8, '4v4', 'Mens', '2022-06-18', '2022-07-18', 'shut up', NULL, 'Ajax' );
+INSERT INTO tournaments (organizer_id, name, type, tournament_size, team_format, gender, start_date, end_date, description, link, location) VALUES (2, 'Wannabe Toronto Man Tourney', 'single-elimination', 8, '3v3', 'Mens', '2022-06-19', '2022-07-19', 'toronto mans far and wide should sign up for this tourney', NULL, 'Toronto' );
+INSERT INTO tournaments (organizer_id, name, type, tournament_size, team_format, gender, start_date, end_date, description, link, location) VALUES (5, 'I Dont even know at this Point', 'single-elimination', 8, '2v2', 'Mens', '2022-06-20',  '2022-07-20', 'yeah i dont konw what this is', NULL, 'Brampton' );
+INSERT INTO tournaments (organizer_id, name, type, tournament_size, team_format, gender, start_date, end_date, description, link, location) VALUES (6, 'Gentlemen In Paris', 'double-elimination', 8, '5v5', 'Mens', '2022-06-21', '2022-07-21', 'riddle me this? who was in paris again??', NULL, 'Toronto' );
+
+
+

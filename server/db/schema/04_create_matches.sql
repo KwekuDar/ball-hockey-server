@@ -1,0 +1,15 @@
+-- schema/04_create_matches.sql
+DROP TABLE IF EXISTS matches CASCADE;
+-- CREATE MATHCES
+-- results_id INTEGER REFERENCES results(id) ON DELETE CASCADE NOT NULL 
+CREATE TABLE matches (
+  id SERIAL PRIMARY KEY NOT NULL,
+  tournament_id INTEGER REFERENCES tournaments(id) ON DELETE CASCADE NOT NULL,
+  team_a_id INTEGER REFERENCES teams(id) ON DELETE CASCADE NOT NULL,
+  team_b_id INTEGER REFERENCES teams(id) ON DELETE CASCADE NOT NULL,
+  team_a_name VARCHAR(255) NOT NULL,
+  team_b_name VARCHAR(255) NOT NULL,
+  location VARCHAR(255),
+  date DATE NOT NULL,
+  time TIME NOT NULL
+);
